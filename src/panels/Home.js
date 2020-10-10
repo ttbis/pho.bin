@@ -10,7 +10,7 @@ import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>Example</PanelHeader>
+		<PanelHeader>Sculptor</PanelHeader>
 		{fetchedUser &&
 		<Group title="User Data Fetched with VK Bridge">
 			<Cell
@@ -21,10 +21,35 @@ const Home = ({ id, go, fetchedUser }) => (
 			</Cell>
 		</Group>}
 
-		<Group title="Navigation Example">
+		<Group title="Navigation">
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
-					Show me the Persik, please
+				<Button size="xl" level="2" onClick={go} data-to="training">
+					Тренировки
+				</Button>
+			</Div>
+			<Div>
+				<Button size="xl" level="2" onClick={go} data-to="food">
+					Питание
+				</Button>
+			</Div>
+			<Div>
+				<Button size="xl" level="2" onClick={go} data-to="music">
+					Музыка
+				</Button>
+			</Div>
+			<Div>
+				<Button size="xl" level="2" onClick={go} data-to="sportsfood">
+					Спортпитание
+				</Button>
+			</Div>
+			<Div>
+				<Button size="xl" level="2" onClick={go} data-to="sportswear">
+					Спорттовары
+				</Button>
+			</Div>
+			<Div>
+				<Button size="xl" level="2" onClick={go} data-to="results">
+					Мои результаты
 				</Button>
 			</Div>
 		</Group>
