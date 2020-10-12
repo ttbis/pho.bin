@@ -1,3 +1,3 @@
 My contacts:
-vk.com/ttbis
+vk.com/ttbis /n
 bislan_taymaskhanov@mail.ru
