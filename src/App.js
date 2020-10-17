@@ -5,9 +5,18 @@ import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenS
 import '@vkontakte/vkui/dist/vkui.css';
 
 import Home from './panels/Home';
+
 import Training from './panels/Training';
+import Lvl1 from './panels/levels/lvl1';
+import Lvl2 from './panels/levels/lvl2';
+import Lvl3 from './panels/levels/lvl3';
+
 import Food from './panels/Food';
+import Calc from './panels/foods/Calc';
+import Diet from './panels/foods/Diet';
+
 import Music from './panels/Music';
+
 import Sportswear from './panels/Sportswear';
 import Sportsfood from './panels/Sportsfood';
 import Results from './panels/Results';
@@ -46,6 +55,11 @@ const App = () => {
 			<Sportswear id='sportswear' go={go} />
 			<Sportsfood id='sportsfood' go={go} />
 			<Results id='results' go={go} />
+			<Lvl1 id='lvl1' go={go} />
+			<Lvl2 id='lvl2' go={go} />
+			<Lvl3 id='lvl3' go={go} />
+			<Calc id='calc' go={go} />
+			<Diet id='diet' go={go} />
 		</View>
 	);
 }
