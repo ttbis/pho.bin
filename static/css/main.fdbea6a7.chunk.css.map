@@ -1,1 +1,0 @@
-{"version":3,"sources":["Results.css"],"names":[],"mappings":"AAAA,oEACE,aAAc,CACd,UAAW,CACX,eAAgB,CAChB,gBACF","file":"main.fdbea6a7.chunk.css","sourcesContent":[".Results {\n  display: block;\n  width: 100%;\n  max-width: 350px;\n  margin: 20px auto;\n}\n"]}

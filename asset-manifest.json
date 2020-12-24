@@ -1,31 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.fdbea6a7.chunk.css",
-    "main.js": "./static/js/main.1e2fffe0.chunk.js",
-    "main.js.map": "./static/js/main.1e2fffe0.chunk.js.map",
+    "main.css": "./static/css/main.21f6c65e.chunk.css",
+    "main.js": "./static/js/main.73f842d5.chunk.js",
+    "main.js.map": "./static/js/main.73f842d5.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.0fd8efd7.js",
     "runtime-main.js.map": "./static/js/runtime-main.0fd8efd7.js.map",
     "static/css/2.86df01db.chunk.css": "./static/css/2.86df01db.chunk.css",
-    "static/js/2.310d2fc5.chunk.js": "./static/js/2.310d2fc5.chunk.js",
-    "static/js/2.310d2fc5.chunk.js.map": "./static/js/2.310d2fc5.chunk.js.map",
+    "static/js/2.b2a56989.chunk.js": "./static/js/2.b2a56989.chunk.js",
+    "static/js/2.b2a56989.chunk.js.map": "./static/js/2.b2a56989.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.2437c3ef2d485de3cfd1e54711a1697a.js": "./precache-manifest.2437c3ef2d485de3cfd1e54711a1697a.js",
+    "precache-manifest.8170f880e03f7051342e583dc2756c39.js": "./precache-manifest.8170f880e03f7051342e583dc2756c39.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.86df01db.chunk.css.map": "./static/css/2.86df01db.chunk.css.map",
-    "static/css/main.fdbea6a7.chunk.css.map": "./static/css/main.fdbea6a7.chunk.css.map",
-    "static/js/2.310d2fc5.chunk.js.LICENSE.txt": "./static/js/2.310d2fc5.chunk.js.LICENSE.txt",
-    "static/media/food.png": "./static/media/food.cc67ace8.png",
-    "static/media/music.png": "./static/media/music.10902547.png",
-    "static/media/results.png": "./static/media/results.cbc1c9ec.png",
-    "static/media/sportsfood.png": "./static/media/sportsfood.1a099a67.png",
-    "static/media/sportswear.png": "./static/media/sportswear.dc2d6681.png",
-    "static/media/training.png": "./static/media/training.a1ec4b50.png"
+    "static/css/main.21f6c65e.chunk.css.map": "./static/css/main.21f6c65e.chunk.css.map",
+    "static/js/2.b2a56989.chunk.js.LICENSE.txt": "./static/js/2.b2a56989.chunk.js.LICENSE.txt",
+    "static/media/button.css": "./static/media/training.7a37641e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0fd8efd7.js",
     "static/css/2.86df01db.chunk.css",
-    "static/js/2.310d2fc5.chunk.js",
-    "static/css/main.fdbea6a7.chunk.css",
-    "static/js/main.1e2fffe0.chunk.js"
+    "static/js/2.b2a56989.chunk.js",
+    "static/css/main.21f6c65e.chunk.css",
+    "static/js/main.73f842d5.chunk.js"
   ]
 }
