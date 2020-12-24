@@ -1,57 +1,32 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
-import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
-import Button from '@vkontakte/vkui/dist/components/Button/Button';
-import Group from '@vkontakte/vkui/dist/components/Group/Group';
-import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
-import Div from '@vkontakte/vkui/dist/components/Div/Div';
-import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
+import { Panel, 
+	  	 PanelHeader, 
+		 Div,
+		 Group } from '@vkontakte/vkui';
+import button from '../modules/button.css';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		<PanelHeader>Sculptor</PanelHeader>
-		{fetchedUser &&
-		<Group title="User Data Fetched with VK Bridge">
-			<Cell
-				before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
-				description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
-			>
-				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
-			</Cell>
-		</Group>}
-
 		<Group title="Navigation">
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="training">
-					Тренировки
-				</Button>
+				<button id="prfl" onClick={go} data-to="profile">ПРОФИЛЬ</button>
 			</Div>
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="food">
-					Питание
-				</Button>
+				<button id="trnng" onClick={go} data-to="training">ТРЕНИРОВКИ</button>
 			</Div>
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="music">
-					Музыка
-				</Button>
+				<button id="fd" onClick={go} data-to="food">ПИТАНИЕ</button>
 			</Div>
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="sportsfood">
-					Спортпитание
-				</Button>
+				<button id="msc" onClick={go} data-to="music">МУЗЫКА</button>
 			</Div>
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="sportswear">
-					Спорттовары
-				</Button>
+				<button id="sprtfd" onClick={go} data-to="sportsfood">СПОРТПИТАНИЕ</button>
 			</Div>
-			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="results">
-					Мои результаты
-				</Button>
-			</Div>
+			
 		</Group>
 	</Panel>
 );

@@ -1,0 +1,233 @@
+.button {
+  font-size: 40px;
+  border: none;
+  border-radius: 50px;
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin: 20px auto;
+}
+/* Профиль */
+#prfl {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 10px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/home/profile.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Тренировки */
+#trnng {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 5px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/home/training.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+}
+/* Питание */
+#fd {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 5px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/home/food.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+}
+/* Музыка */
+#msc {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 10px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/home/music.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+}
+/* Спортпитание */
+#sprtfd {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 5px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/home/sportfood.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Тренировки-новичок(noob) */
+#nb {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 10px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/training/noob.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Тренировки-опытный(skillful) */
+#skll {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 10px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/training/skillful.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Тренировки-мастер(master) */
+#mstr {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 10px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/training/master.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Калькулятор БЖУ и Ккал */
+#clc {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 10px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+ background: transparent url(../img/food/calc.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Дневной рацион (диета) */
+#dt {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 10px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/food/diet.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Плавная музыка smooth*/
+#smth {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 10px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/music/smoth.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Энергичная музыка */
+#enrgtc {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 10px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/music/energetic.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Агрессивная музыка */
+#angr {
+  font-family: Tahoma;
+  font-size:150%;
+  font-weight: bold;
+  color: white;
+  text-shadow: black 0 0 10px;
+  right:37%;
+  width: 100%;
+  height: 70px;
+  border: none;
+  background: transparent url(../img/music/angry.png) no-repeat center top;
+  background-position: center 10%;
+  border-radius: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

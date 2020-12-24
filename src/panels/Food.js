@@ -1,16 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { platform, IOS } from '@vkontakte/vkui';
-import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
-import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
-import PanelHeaderButton from '@vkontakte/vkui/dist/components/PanelHeaderButton/PanelHeaderButton';
-import Button from '@vkontakte/vkui/dist/components/Button/Button';
-import Div from '@vkontakte/vkui/dist/components/Div/Div';
+import { platform, 
+		 IOS,
+		 Panel, 
+	  	 PanelHeader, 
+		 PanelHeaderButton,
+		 Div } from '@vkontakte/vkui';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
-
-import food from '../img/food.png';
-import './Food.css';
+import button from '../modules/button.css';
 
 const osName = platform();
 
@@ -23,16 +21,11 @@ const Food = props => (
 		>
 			Питание
 		</PanelHeader>
-		<img className="Food" src={food} alt="Food"/>
 		<Div>
-			<Button size="xl" level="2" onClick={props.go} data-to="calc">
-				Калькулятор БЖУ и Ккал
-			</Button>
+			<button id="clc" onClick={props.go} data-to="calc">КАЛЬКУЛЯТОР ККАЛ</button>
 		</Div>
 		<Div>
-			<Button size="xl" level="2" onClick={props.go} data-to="diet">
-				Составить днейной рацион
-			</Button>
+			<button id="dt" onClick={props.go} data-to="diet">СОСТАВИТЬ РАЦИОН</button>
 		</Div>
 	</Panel>
 );
